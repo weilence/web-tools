@@ -25,6 +25,7 @@ declare module 'vue-router/auto-routes' {
     '/nginx': RouteRecordInfo<'/nginx', '/nginx', Record<never, never>, Record<never, never>>,
     '/password-generator/': RouteRecordInfo<'/password-generator/', '/password-generator', Record<never, never>, Record<never, never>>,
     '/systemctl/': RouteRecordInfo<'/systemctl/', '/systemctl', Record<never, never>, Record<never, never>>,
+    '/timestamp/': RouteRecordInfo<'/timestamp/', '/timestamp', Record<never, never>, Record<never, never>>,
     '/transfer/': RouteRecordInfo<'/transfer/', '/transfer', Record<never, never>, Record<never, never>>,
   }
 }

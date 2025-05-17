@@ -95,10 +95,10 @@ function canSwap() {
               <n-tooltip trigger="hover">
                 <template #trigger>
                   <n-button
-                    secondary
+
                     type="primary"
                     class="flex-shrink-0"
-                    disabled
+                    disabled secondary
                     @click="swapInputOutput"
                   >
                     <template #icon>
@@ -170,7 +170,7 @@ function canSwap() {
 <route lang="json">
 {
     "meta": {
-        "menu": "编码/加密",
+        "menu": "Encoding/Decoding",
         "index": 3
     }
 }
